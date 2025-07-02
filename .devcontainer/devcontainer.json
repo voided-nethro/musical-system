@@ -1,0 +1,10 @@
+{
+  // A simple universal container image
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+
+  // Make sure we run as the 'vscode' user (which definitely exists)
+  "remoteUser": "vscode",
+
+  // (Optional) Automatically make your scripts executable
+  "initializeCommand": "chmod +x /workspaces/${localWorkspaceFolderBasename}/*.sh || true"
+}
